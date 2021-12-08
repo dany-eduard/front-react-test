@@ -2,6 +2,7 @@ export default interface Car {
   carBaggage: any[]
   category: string
   companyImageUrl: string
+  companyName: string
   dailyRate: number
   dailyRateCurrency: string
   doors: number

@@ -1,0 +1,195 @@
+.title {
+  height: 57px;
+  color: #333333;
+  font-family: Lato, sans-serif, 'Ubuntu';
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 57px;
+}
+
+.sub_title {
+  height: 29px;
+  color: #333333;
+  font-family: Lato, sans-serif, 'Ubuntu';
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.card-bg {
+  height: 452px;
+  width: 333px;
+  margin: 60px 0 -60px 0;
+}
+
+.card {
+  height: 386px;
+  width: 333px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card_header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.card_body {
+  padding: 0 41px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.card_footer {
+  padding: 15px 21px;
+}
+
+.card_header_img {
+  height: 133px;
+  width: 214.34px;
+  margin: -90px 0px 10px 0px;
+}
+
+.card_header_img img {
+  width: 135%;
+  transform: translateX(-18px);
+}
+
+.rectangle_percent {
+  height: 27px;
+  width: 74px;
+  border-radius: 13.5px;
+  background-color: #fdd008;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-self: flex-end;
+  margin-bottom: 17px;
+}
+
+.rectangle_percent .text_rectangle {
+  color: #333333;
+  font-weight: 900;
+  line-height: 19px;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.company_logo {
+  height: 48px;
+  width: 104.76px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.category {
+  height: 29px;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  margin: 1px 0;
+}
+
+.model {
+  width: 275px;
+  color: #999999;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  margin: 8px 0;
+}
+
+.constainer_icons_idicators {
+  height: 18px;
+  width: 18px;
+  display: inline-flex;
+}
+
+.constainer_icons_idicators .material-icons {
+  color: #141284;
+  margin-right: 4px;
+}
+
+.item_icon_indicator {
+  display: inline-flex;
+  margin: 1px 10px 24px 0px;
+}
+
+.text_icon_indicator {
+  width: 10px;
+  color: #999999;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.line {
+  box-sizing: border-box;
+  height: 1px;
+  width: 334px;
+  border: 1px solid #dbdbdb;
+}
+
+.rectangle_car_icon {
+  height: 47px;
+  width: 47px;
+  border-radius: 5px;
+  background-color: #141284;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_costs {
+  text-align: end;
+}
+
+.cost_service {
+  color: #141284;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+}
+
+.day_text {
+  height: 15px;
+  width: 22px;
+  color: #999999;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 15px;
+}
+
+.cost_day_service {
+  color: #333333;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.boton_reserva {
+  height: 44px;
+  width: 100%;
+  border-radius: 22px;
+  background-color: #141284;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 719px) {
+  .title {
+    height: 44px;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0 0 50px 49px;
+  }
+
+  .sub_title {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0 0 53px 49px;
+  }
+}
